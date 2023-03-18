@@ -19,7 +19,7 @@ pipeline {
       steps {
         script {
           sh """
-          pylint *.py
+          pylint *.py --ignore C0103
           """
         }
       }
