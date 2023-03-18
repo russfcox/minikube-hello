@@ -1,5 +1,4 @@
 pipeline {
-  options {}
   agent any
   stages { 
     stage('Checkout') { 
